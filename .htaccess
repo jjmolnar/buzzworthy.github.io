@@ -1,0 +1,33 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+# SET UP ERROR PAGE
+ErrorDocument 404 /404.html
+
+# https force
+# RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+# RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+
+# One month for most static assets
+<filesMatch ".(css|svg|jpg|jpeg|png|gif|js|mp4|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+# EXTRA SECURITY
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+
+# Extra Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set X-Content-Type-Options nosniff
+</IfModule>

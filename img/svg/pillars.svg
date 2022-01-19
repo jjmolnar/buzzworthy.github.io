@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1440 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04-about" transform="translate(-1.000000, -5682.000000)">
+            <g id="pillars" transform="translate(1.000000, 5682.000000)">
+                <rect id="bg" x="0" y="0" width="1440" height="700"></rect>
+                <rect id="Rectangle-Copy-14" stroke="#928D7C" opacity="0.5" x="19.5" y="199.5" width="174" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-15" stroke="#928D7C" opacity="0.5" x="252.5" y="199.5" width="57" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-16" stroke="#928D7C" opacity="0.5" x="368.5" y="199.5" width="116" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-17" stroke="#928D7C" opacity="0.5" x="543.5" y="199.5" width="174" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-18" stroke="#928D7C" opacity="0.5" x="776.5" y="199.5" width="58" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-19" stroke="#928D7C" opacity="0.5" x="893.5" y="199.5" width="116" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-20" stroke="#928D7C" opacity="0.5" x="1069.5" y="199.5" width="57" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-21" stroke="#928D7C" opacity="0.5" x="1186.5" y="199.5" width="115" height="302" rx="5"></rect>
+                <rect id="Rectangle-Copy-22" stroke="#928D7C" opacity="0.5" x="1359.5" y="199.5" width="58" height="302" rx="5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
